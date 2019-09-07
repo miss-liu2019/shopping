@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.item_ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item_li {
+    width: 236px;
+    text-align: center;
+    height: 80px;
+    /* font: 30px/80px ""; */
+    font-size: 30px;
+    line-height: 80px;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #fff;
+    color: #555;
+    background: #efefee;
+}
+.item_li:nth-child(3n) {
+    border-right: 1px solid lightgrey;
+}
+.item_li:last-child {                                       
+    border-right: 1px solid lightgrey;
+    width: 249px;
+}

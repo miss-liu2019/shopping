@@ -1,0 +1,77 @@
+.cart{
+    padding: 0 40px;
+}
+.cart_item {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+    border-bottom: 1px solid #888;
+}
+.cart_item .item_middle {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.cart_item .item_middle img {
+    display: block;
+    height: 120px;
+    width: 120px;
+}
+.cart_item .item_right {
+    font: 18px/28px "";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cart_item .item_right p {
+    width: 400px;
+}
+.cart_item .item_right p:nth-child(1) {
+    color: #333;
+}
+.cart_item .item_right p:nth-child(2) {
+    display: flex;
+    line-height: 40px;
+    justify-content: space-between;
+}
+.cart_item .item_right p:nth-child(2) b:nth-child(1) {
+    color: #d82ea0;
+}
+.cart_item .item_right p b button{
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background: #efefee;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.cart_item .item_right p b .price{
+    color: #000000 !important;
+    font: 20px/40px "";
+   
+}
+.cart_item .item_right p:nth-child(2) b:nth-child(2) {
+    margin-right: 30px;
+}
+.selectAll {
+    display: flex;
+    justify-content: space-between;
+}
+.selectAll p:nth-child(2) {
+    margin-top: 15px;
+    height: 50px;
+    background: #e668bc;
+    color: white;
+    font: 28px/50px "";
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.null{
+    text-align: center;
+    font-family: '微软雅黑';
+    margin-top: 200px;
+    color:rgb(146, 143, 143);
+}

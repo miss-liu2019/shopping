@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0
+  }
+  body{
+    background-color: #fff;
+  }
+  .flex-container {
+      margin-left:50px;
+      margin-right:50px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-bottom: 30px;
+    }
+  .flex-container a{
+    color:#333;
+  }
+  .decorate{
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+    width:auto;
+    /* font:30px/60px ""; */
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 30px;
+    height:60px;
+    text-align: center;
+    background: #efefee;
+    border:1px solid #CCC;
+    border-radius: 10px;
+    margin-top:40px
+  }
+  .decorate img{
+    width: 30px;
+    height: 30px;
+  }

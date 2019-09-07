@@ -1,0 +1,96 @@
+body{
+    margin:0;
+}
+.header{
+    position:fixed;
+}      
+.header_word-return{
+    width:90px;
+    height:60px;
+}
+.header_word-download{
+    width:90px;
+}
+.header .search .word i{
+    display:block;
+    line-height:60px;
+    /* width:600px; */
+    text-align:center;
+    font-style:normal;
+    font-size:40px;
+    color:#fff;
+}
+.list{
+    width:100%;
+    background:#ceceff;
+    margin-top:0;
+}
+.list .left{
+    width:90%;
+    height:125px;
+    display:flex;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.list .left li{
+    padding:0 5px;
+}
+
+.body{
+    padding: 0 24px;
+    padding-top:2.4rem;
+    /* background:#ddd; */
+}
+.body>ol{
+    margin-top:0;
+    padding-left:0;
+}
+.body_case{
+    padding:10px 0 ;
+    margin-bottom:8px;
+    margin-left:.5%;
+    height:200px;
+    width:99%;
+    background:#fff;
+}
+.body_img{
+    float:left;
+    margin-right: 10px;
+}
+.body_img>img{
+    width:200px;
+    height:200px;
+    margin-right:8px;
+}
+/* .body_list{
+    width:100%;
+    font-family: '宋体 隶书 楷体' ;
+
+} */
+.body_list-price :first-child{
+    margin-right:15px;
+}
+.body_list-price :last-child{
+    float:right;
+    /* margin-left:50px; */
+}
+.body_list_title{
+    font-size:26px;
+    font-family: '微软雅黑';
+    margin-bottom: 10px;
+}
+.body_list-price{
+    color: #e72434;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.body_list-coupon a{
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: underline;
+    color:#69696d;
+}
+.body_list>div:first-of-type{
+    height:60px;
+}

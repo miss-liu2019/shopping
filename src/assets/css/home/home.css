@@ -1,0 +1,120 @@
+body{
+    background: #ffffff;
+}
+.nav span{
+    font-size:50px;
+    font-family: '华文琥珀';
+    /* font-weight: bold; */
+    color: #D82EA0;
+}
+.nav img{
+    width: 70px;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 300px;
+}  
+.swiper-slide{
+    width: 100%;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-pagination-bullet-active{
+    background: #D82EA0;
+}
+.menu{
+    margin-top:20px;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+.menu ul li{
+    width: 170px;
+    height: 100px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu ul li img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.menu ul li span{
+    /* font: 12/20px "微软雅黑"; */
+    font-size: 12px;
+    line-height: 20px;
+    font-family: '微软雅黑';
+
+}
+.recommend{
+    width: 100%;
+    height: 1500px;
+    margin-top: 20px;
+}
+.recommend ul{
+    padding: 0 50px;
+}
+.recommend ul li {
+    width: 100%;
+    display: flex;
+    margin-right: 50px;
+    border-bottom: 1px solid #efefef;
+}
+.recommend ul li .img_container{
+    width: 200px;
+    margin-right: 20px;
+}
+.recommend ul li .img_container img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+}
+.recommend ul li .recommend_text{
+    /* font:16px/30px ""; */
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.recommend ul li .recommend_text b{
+    color:#D82EA0;
+}
+.recommend ul li .recommend_text p:nth-of-type(2){
+    font-size: 10px;
+    color:#bec2d3;
+    display: flex;
+    justify-content: space-between;
+}
+.recommend ul li .recommend_text p:first-of-type{
+    color: #333;
+}
+.recommend h1{
+    height: 60px;
+    background: #ffffff;
+    /* font: bold 34px/60px ""; */
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 60px;
+    color: #D82EA0;
+    padding-left: 3px;
+    margin: 20px 40px;
+    border-bottom: 4px solid #D82EA0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #333333;
+}

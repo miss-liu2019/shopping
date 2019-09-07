@@ -1,0 +1,153 @@
+
+.container1{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    margin-right:40px;
+    margin-left:20px;
+}
+.productName{
+    width:90%;
+    font-family: "微软雅黑";
+    font-size:26px;
+    color: black;
+
+}
+.productPinkage{
+    font-family: "微软雅黑";
+    color:red;
+    margin: 5% 0 10% 0;
+}
+.infoContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px;
+    color:#999;
+}
+.productName2{
+    font-size:36px;
+    color: black;
+    font-weight: 900;
+    margin: 40px 20px 20px 20px;
+}
+.productTime{
+    color: #999;
+    margin-left: 20px;
+
+}
+.productInfo{
+    display: flex;
+    justify-content: space-around;
+}
+.infoLeft{
+  
+    color:#333;
+    margin: 20px;
+    font: 26px/52px "微软雅黑";
+
+}
+.infoRight{
+    width: 250px;
+}
+#disstorck{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top:3%;
+}
+#disstorck>li{
+    border-bottom: 2px solid #ccc;
+    height: 60px;
+    /* line-height: 40px; */
+    width: 40%;
+    font: 26px /60px "微软雅黑";
+
+}
+#disstorck>li>a>span{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    color: black;
+}
+#disstorck>li>a>span>strong{
+    text-align: center;
+    color: rgb(230, 85, 181);
+}
+.goshopping{
+    width: 80%;
+    margin-left:10%;
+    border: 0;
+    border-radius: 10px;
+    background:rgb(230, 85, 181); 
+    margin-top:5%;
+    color: #FFF;
+    font: 30px/60px "微软雅黑";
+
+}
+.tit{
+    font:30px/80px "";
+    margin-left:5%;
+}
+.reply{
+    width: 80%;
+    margin-left:10%;
+    position: relative;
+
+}
+.reply>.form>textarea{
+    width: 100%;
+    height:300px;
+    border:2px solid #999;
+    border-radius: 10px;
+}
+.ctrl>input{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(240, 95, 191);
+    position: absolute;
+    bottom: 10px;
+    right:0;
+    color: #FFF;
+    margin-right: 12px;
+}
+.ui-border-b{
+    display: flex;
+    justify-content: left;
+    margin: 5%;
+}
+.ui-border-b>.userimg>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.ui-border-b>.con{
+    width: 90%;
+    margin-left:3%;
+}
+.ui-border-b>.con>.clearfix{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 5%;
+}
+.ui-border-b>.con>.clearfix>.username{
+    color: aqua;
+}
+.ui-border-b>.con>.clearfix>.time{
+    color:#ccc;
+}
+.am-navbar-light .am-navbar-title{
+    color:#D82EA0;
+    font-family: "weiruanyahei";
+    font-weight: 700
+}

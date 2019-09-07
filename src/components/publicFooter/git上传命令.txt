@@ -1,0 +1,7 @@
+cmd中项目位置
+git init (初始化)
+git add . 添加所有文件
+git commit -m "项目描述信息"
+git remote add origin //仓库地址  (向仓库添加)
+git push -u origin 分支名称   将项目放入仓库的分支上 
+

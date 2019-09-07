@@ -1,0 +1,59 @@
+.ul li{
+    display: flex;
+}
+.ul li .img_box{
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+}
+.ul li .pro_msg h2{
+    font-size: 26px;
+    line-height: 32px;
+    color: #333;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+.ul li .pro_msg h3{
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+.ul li .pro_msg h3 span{
+    color: rgb(247, 91, 195);
+}
+.ul li .img_box img{
+    width: 250px;
+    height: 250px;
+}
+
+.pro_appraise{
+    margin:0 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    border-bottom: 2px solid #D82ea0;
+}
+.user_info{
+    margin-left: 30px;
+    font-size:26px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.user_info span{
+    margin-right: 30px;
+}
+.text{
+    padding: 0 30px;
+   color: #696565;
+}
+.pro_footer button{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    background:rgba(248,91,195,.8);
+    color:#fff;
+    height:90px;
+    /* font:38px/90px ""; */
+    font-size: 38px;
+    line-height: 90px;
+    border:none;
+}

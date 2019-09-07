@@ -1,0 +1,32 @@
+/* .box{} */
+.container{
+    width: 320px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 40px 25px 20px 25px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.productPrice{
+    font-family: "微软雅黑";
+    color:red;
+    margin:10px 0 10% 2%;
+}
+.productInfos{
+    width: 60%;
+    /* height: 200px; */
+    margin: 3% 3% 5% 3%;
+    font: 26px/50px "";
+}
+.imgs{
+    margin-left: 3%;
+}
+.DisproductName{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    margin-top: 16px;
+}

@@ -1,0 +1,42 @@
+body {
+    background: white;
+}
+.sort_item {
+    display: flex;
+}
+.sort_left {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 150px;
+    height: 80px;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+}
+.sort_left:nth-child(n+1) {
+    border-top : none;
+}
+.sort_right {
+    overflow: hidden;
+}
+.sort_right .item_lis {
+    float: left;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+}
+.sort_right .item_lis p:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sort_right .item_lis p:nth-child(2) {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
+.sort_right .item_lis p img {
+    height: 100px;
+}

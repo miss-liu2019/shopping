@@ -1,0 +1,20 @@
+.am-accordion .am-accordion-item .am-accordion-header{
+    color: #2c2229;
+    font-size: 28px;
+}
+.am-list-item .am-list-line .am-list-content{
+    /* background: #eff2f3; */
+    padding: 2px 0pc;
+    margin-left: 24px;
+    border-bottom: 1px solid #efefef;
+    font-size: 26px;
+    font-family: '微软雅黑';
+}
+.am-list-item .am-list-line .am-list-content p{
+    font-weight: normal;
+    color: #000000;
+    /* background: #f9f9f9; */
+}
+.am-list-item .am-list-line .am-list-content p:last-child{
+    color: #666666;
+}

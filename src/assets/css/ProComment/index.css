@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.minnav{
+    margin-bottom: 30px;
+}
+.detail {
+    padding: 0px 26px;
+    font-size: 30px;
+}
+.detail_img  img{
+    width: 400px;
+    height: 400px;
+    margin:0 auto;
+}
+.comment_tab {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.comment_tab li {
+    flex: 1;
+    /* font: 30px/50px ""; */
+    font-size: 30px;
+    line-height: 50px;
+    border-bottom: 2px solid #ff4891;
+    /* background: #f7b7d1; */
+    color: #333;
+}
+.comment_tab li.active {
+    background: #cccccc;
+    color: white!important;
+    font-weight: 900;
+}
+.price_notice {
+    margin: 20px;
+}
+.comment_notice {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: lightgrey;
+    /* font: 28px/50px ""; */
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: 900;
+    border-top: 4px solid #888;
+    margin-top: 40px;
+}
+.comment_item {
+    margin: 20px 18 px;
+    display: flex;
+    flex-direction: column;
+}
+.comment_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 60px;
+}
+.comment_left {
+    font-size: 24px;
+}
+.comment_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.comment_bottom {
+    margin-bottom: 20px;
+    /* font: 25px/30px ""; */
+    font-size: 25px;
+    line-height: 30px;
+}
+.btn-container  button{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 70px;
+    background: rgb(236, 70, 70);
+    /* font:34px/70px " "; */
+    font-size: 34px;
+    line-height: 70px;
+    color: #fff;
+    border: none;
+    margin-bottom: 50px;
+    margin-left:15%;
+    border-radius: 20px;
+}
+.add_to_cart {
+    background: #ff4891;
+    box-sizing: none;
+    border: none;
+    height: 40px;
+    width: 600px;
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 5px;
+}

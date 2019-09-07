@@ -1,0 +1,44 @@
+.title_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.coupon_title {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.coupon_title img {
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.coupon_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.coupon_item .item_left img {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+.coupon_item .item_right {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.coupon_item .item_right p:nth-child(1) {
+    /* font: 24px/40px ""; */
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 900;
+}
+.coupon_item .item_right p:nth-child(2) {
+    color: #ff4891;
+    font-size: 18px;
+    margin: 10px 0;
+}
